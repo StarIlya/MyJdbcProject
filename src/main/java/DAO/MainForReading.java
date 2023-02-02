@@ -5,6 +5,6 @@ import java.sql.SQLException;
 public class MainForReading {
     public static void main(String[] args) throws SQLException {
         CarDAO carDAO = new CarDAO();
-        carDAO.getCarsById(1);
+        System.out.println(carDAO.getCarsById(5));
     }
 }
