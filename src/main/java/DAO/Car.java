@@ -5,11 +5,11 @@ import lombok.Data;
 @Data
 public class Car {
 
-    public int id;
-    public String color;
-    public String brand;
-    public int yearOfRelease;
-    public int price;
+    private int id;
+    private String color;
+    private String brand;
+    private int yearOfRelease;
+    private int price;
 
     public Car(){}
     public Car(String color, String brand, int yearOfRelease, int price) {
